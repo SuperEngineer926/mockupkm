@@ -1,0 +1,157 @@
+body {
+    position: relative;
+    min-height: 1000px;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.items {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    min-height: 54%;
+    background-image: url("../img/44.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.items__inner {
+    position: relative;
+    width: 100%;
+}
+
+.items__layer {
+    position: absolute !important;
+}
+
+.items__layer.horse.layer {
+    right: 27vw !important;
+    top: 50vh !important;
+    left: auto !important;
+    width: 10vw;
+}
+
+.items__layer.tent.layer {
+    right: 42vw !important;
+    top: 32vh !important;
+    left: auto !important;
+    width: 10vw;
+}
+
+.items__layer.camera.layer {
+    top: 16vh !important;
+    left: 75vw !important;
+    width: 10vw;
+}
+
+.items__layer.plant.layer {
+    top: 44vh !important;
+    left: 6vw !important;
+    width: 10vw;
+}
+
+.items__layer.snake.layer {
+    top: 3vh !important;
+    left: 23vw !important;
+    width: 10vw;
+}
+
+.items__layer .items__item {
+    position: absolute;
+}
+
+.about {
+    background-color: black;
+    padding: 65px 10% 0 10%;
+}
+
+.second {
+    margin: 15px 0;
+    padding: 25px;
+    position: relative;
+}
+
+.header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.faq .content p {
+    width: 50%;
+}
+
+.team .conent p {
+    width: 70%;
+}
+
+.faq img {
+    width: 60px;
+    position: absolute;
+    top: 35px;
+    right: 20%;
+}
+
+.footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.footer ul li {
+    padding: 0 10px;
+}
+
+.project {
+    font-size: 15px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 15px;
+}
+
+.copyright span {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .items {
+        min-height: 66%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .items {
+        min-height: 700px;
+    }
+}
